@@ -1,4 +1,4 @@
-package ru.basanov.javaDataBase.api.basic;
+package ru.basanov.GeekCloud.api.basic;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

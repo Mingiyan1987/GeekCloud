@@ -1,6 +1,6 @@
 package ru.basanov.GeekCloud.api.remote;
 
-import ru.basanov.javaDataBase.api.basic.FileService;
+import ru.basanov.GeekCloud.api.basic.FileService;
 
 public interface FileRemoteService extends FileService {
 

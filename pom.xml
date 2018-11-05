@@ -6,7 +6,7 @@
 
     <groupId>ru.basanov</groupId>
     <artifactId>GeekCloud</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <developers>
         <developer>
             <id>basanov.mt87</id>
@@ -99,7 +99,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>javaDataBase</finalName>
+        <finalName>GeekCloud</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -121,7 +121,7 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/javaDataBase/lib</outputDirectory>
+                            <outputDirectory>${project.build.directory}/GeekCloud/lib</outputDirectory>
                             <overWriteReleases>false</overWriteReleases>
                             <overWriteSnapshots>false</overWriteSnapshots>
                             <overWriteIfNewer>true</overWriteIfNewer>
@@ -137,7 +137,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>../lib/</classpathPrefix>
-                            <mainClass>ru.basanov.javaDataBase.Application</mainClass>
+                            <mainClass>ru.basanov.GeekCloud.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -159,12 +159,12 @@
                     <artifactItems>
                         <artifactItem>
                             <groupId>ru.basanov.enterprise</groupId>
-                            <artifactId>javaDataBase</artifactId>
+                            <artifactId>GeekCloud</artifactId>
                             <version>1.0.0</version>
                             <type>jar</type>
                             <overWrite>true</overWrite>
-                            <outputDirectory>${project.build.directory}/javaDataBase/bin</outputDirectory>
-                            <destFileName>javaDataBase.jar</destFileName>
+                            <outputDirectory>${project.build.directory}/GeekCloud/bin</outputDirectory>
+                            <destFileName>GeekCloud.jar</destFileName>
                         </artifactItem>
                     </artifactItems>
                     <overWriteReleases>false</overWriteReleases>

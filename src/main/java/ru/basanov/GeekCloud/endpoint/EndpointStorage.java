@@ -1,4 +1,4 @@
-package ru.basanov.javaDataBase.endpoint;
+package ru.basanov.GeekCloud.endpoint;
 
 public class EndpointStorage {
 }

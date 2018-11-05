@@ -2,7 +2,7 @@ package ru.basanov.GeekCloud.api.local;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import ru.basanov.javaDataBase.api.basic.FileService;
+import ru.basanov.GeekCloud.api.basic.FileService;
 
 import java.util.List;
 

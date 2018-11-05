@@ -1,6 +1,7 @@
 package ru.basanov.GeekCloud;
 
 import ru.basanov.GeekCloud.api.system.BootstrapService;
+import ru.basanov.GeekCloud.service.system.BootstrapServiceBean;
 
 import javax.enterprise.inject.se.SeContainerInitializer;
 
